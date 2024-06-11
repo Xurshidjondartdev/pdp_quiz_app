@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:pdp_quiz_app/pages/creat_accaunt_page.dart';
-import 'package:pdp_quiz_app/pages/email_otp_page.dart';
-import 'package:pdp_quiz_app/pages/pin_code_page.dart';
-import 'package:pdp_quiz_app/pages/splash_page.dart';
+import 'package:pdp_quiz_app/UI/creat_accaunt_page.dart';
+import 'package:pdp_quiz_app/UI/email_otp_page.dart';
+import 'package:pdp_quiz_app/UI/pin_code_page.dart';
+import 'package:pdp_quiz_app/UI/splash_page.dart';
 import 'app_route_name.dart';
 
 @immutable

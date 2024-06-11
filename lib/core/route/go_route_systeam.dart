@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:pdp_quiz_app/core/route/app_route_name.dart';
-import 'package:pdp_quiz_app/pages/creat_accaunt_page.dart';
-import 'package:pdp_quiz_app/pages/email_otp_page.dart';
-import 'package:pdp_quiz_app/pages/home_page.dart';
-import 'package:pdp_quiz_app/pages/pin_code_page.dart';
-import 'package:pdp_quiz_app/pages/splash_page.dart';
+import 'package:pdp_quiz_app/UI/creat_accaunt_page.dart';
+import 'package:pdp_quiz_app/UI/email_otp_page.dart';
+import 'package:pdp_quiz_app/UI/home_page.dart';
+import 'package:pdp_quiz_app/UI/pin_code_page.dart';
+import 'package:pdp_quiz_app/UI/splash_page.dart';
 
 final class GoRouteSystem {
   static GoRouter router = GoRouter(

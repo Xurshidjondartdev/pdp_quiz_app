@@ -89,7 +89,7 @@ class _EmailOtpPageState extends State<EmailOtpPage> {
                 keyboardType: TextInputType.emailAddress,
                 obscureText: isObscureText,
                 decoration: InputDecoration(
-                   suffixIcon: IconButton(
+                  suffixIcon: IconButton(
                     onPressed: () {
                       isObscureText = !isObscureText;
                       setState(() {});
@@ -99,17 +99,19 @@ class _EmailOtpPageState extends State<EmailOtpPage> {
                         ? const Icon(Icons.visibility_off)
                         : const Icon(Icons.visibility),
                   ),
-                    labelText: 'Password',
-                    labelStyle: const TextStyle(
-                        color: Colors.black,
-                        fontWeight: FontWeight.w500,
-                        fontSize: 16),
-                    border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(20),
-                        borderSide: const BorderSide(
-                          color: Colors.black,
-                          width: 1,
-                        ),),),
+                  labelText: 'Password',
+                  labelStyle: const TextStyle(
+                      color: Colors.black,
+                      fontWeight: FontWeight.w500,
+                      fontSize: 16),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(20),
+                    borderSide: const BorderSide(
+                      color: Colors.black,
+                      width: 1,
+                    ),
+                  ),
+                ),
               ),
               const SizedBox(height: 30),
               MaterialButton(

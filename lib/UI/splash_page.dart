@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pdp_quiz_app/pages/email_otp_page.dart';
+import 'package:pdp_quiz_app/UI/email_otp_page.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});
@@ -14,6 +14,7 @@ class _SplashPageState extends State<SplashPage> {
     _navigateToNextPage();
     super.initState();
   }
+
   ////splash page dan keyin bowqa page ga otadi
   void _navigateToNextPage() {
     Future.delayed(const Duration(seconds: 5), () {
