@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pdp_quiz_app/UI/email_otp_page.dart';
+import 'package:pdp_quiz_app/UI/pages/auth/auth_page/email_otp_page.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});
