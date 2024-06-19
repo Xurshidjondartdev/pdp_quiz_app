@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:pdp_quiz_app/UI/pages/auth/creat_accaunt_page.dart';
-import 'package:pdp_quiz_app/UI/pages/auth/email_otp_page.dart';
-import 'package:pdp_quiz_app/UI/pages/auth/pin_code_page.dart';
+import 'package:pdp_quiz_app/UI/auth/creat_accaunt_page.dart';
+import 'package:pdp_quiz_app/UI/auth/email_otp_page.dart';
+import 'package:pdp_quiz_app/UI/auth/pin_code_page.dart';
 import 'package:pdp_quiz_app/core/common_widgets/splash_page.dart';
 import 'app_route_name.dart';
 
